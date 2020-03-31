@@ -32,6 +32,6 @@ func main() {
 	if err != nil {
 		log.Fatal("could not listen to %s %v", port, err)
 	}
-	log.Println("GRPC Server Running")
+	log.Println("GRPC Server Running!")
 	log.Fatal(srv.Serve(l))
 }
