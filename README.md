@@ -15,3 +15,8 @@ go run main.go
 
 #Client
 go run main.go
+
+#Using Docker
+1. git clone the repo
+2. docker build -t server .
+3. docker run server
